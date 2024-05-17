@@ -16,11 +16,13 @@ public class Juego2Eso {
         Jugador jugador = new Jugador("NombreJugador", 100, 100, armaJugador);
         
         // Crear una instancia de enemigo
-        Enemigos enemigo = new Enemigos("Orco", 100, 100, 80, 25);
+        Enemigos enemigo = new Enemigos("Orco", 100, 100, 80, 10);
         
         // Crear una instancia de la interfaz del juego
-        JuegoGUI juegoGUI = new JuegoGUI();
-        juegoGUI.setVisible(true);
+        GameGUI gameGUI = new GameGUI();
+        gameGUI.setVisible(true);
+        //JuegoGUI juegoGUI = new JuegoGUI();
+        //juegoGUI.setVisible(true);
         // Crear una instancia de la clase de turnos
         Turnos turnos = new Turnos(jugador, enemigo);
         

@@ -4,10 +4,7 @@
  */
 package com.mycompany.juego2eso;
 
-/**
- *
- * @author mario
- */
+
 public class ataquesJugador {
     private String nombre;
     private int danio;

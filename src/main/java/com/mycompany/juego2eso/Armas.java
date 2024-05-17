@@ -5,7 +5,7 @@ import java.util.Random;
 
 public class Armas {
     
-    private String nombre;
+   private String nombre;
    private int danio;
    private int velocidadAtaque;
    private int precision;

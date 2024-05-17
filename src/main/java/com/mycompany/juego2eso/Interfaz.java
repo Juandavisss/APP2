@@ -100,7 +100,7 @@ public class Interfaz extends javax.swing.JFrame {
         panelGeneral.add(VidaEnemigo, new org.netbeans.lib.awtextra.AbsoluteConstraints(658, 20, 203, 24));
 
         VidaJugador.setBackground(new java.awt.Color(0, 204, 0));
-        panelGeneral.add(VidaJugador, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 110, 162, 22));
+        panelGeneral.add(VidaJugador, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 20, 162, 22));
 
         jLabel1.setText("Selecciona un ataque ");
         panelGeneral.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 360, -1, -1));
